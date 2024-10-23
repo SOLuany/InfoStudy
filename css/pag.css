@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(112, 88, 177);
+}
+button{
+    color: blue;
+}
+#see h2{
+    color: rgb(0, 0, 0);
+}
+#fundo{
+    background-color: white;
+}
+#carrossel{
+    border: solid #000000 2px;
+    border-radius: 10px;
+    width: 900px;
+    height: 500px;
+    overflow: hidden;
+    border:none;
+}
+#foto{
+    width: 1100%;
+    animation: animacao 15s infinite;
+    height: 500px;
+}
+#foto img{
+    width: 896px;
+    height: 100%;
+}
+@keyframes animacao{
+    0%{margin-left: 0;}
+    3%{margin-left: 0;}
+    10%{margin-left: -100%;}
+    13%{margin-left:-100%;}
+    20%{margin-left: -200%;}
+    23%{margin-left: -200%;}
+    30%{margin-left: -300%;}
+    33%{margin-left: -300%;}
+    40%{margin-left: -400%;}
+    43%{margin-left: -400%;}
+    50%{margin-left: -500%;}
+    53%{margin-left: -500%;}
+    60%{margin-left: -600%;}
+    63%{margin-left: -600%;}
+    70%{margin-left: -700%;}
+    73%{margin-left: -700%;}
+    80%{margin-left: -800%;}
+    83%{margin-left: -800%;}
+    90%{margin-left: -900%;}
+    93%{margin-left: -900%;}
+    100%{margin-left: -1000%;}
+}
+#caixa{
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: visible;
+    background-color: white;
+}
