@@ -4,7 +4,7 @@ body{
 button{
     color: blue;
 }
-#see h2{
+#see h1{
     color: rgb(0, 0, 0);
 }
 #fundo{
@@ -26,6 +26,11 @@ button{
 #foto img{
     width: 896px;
     height: 100%;
+}
+#espaco{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
 }
 @keyframes animacao{
     0%{margin-left: 0;}
@@ -55,4 +60,25 @@ button{
     border-radius: 10px;
     overflow-y: visible;
     background-color: white;
+}
+#texto{
+    display: flex;
+    position: relative;
+}
+p{
+    width: 50%;
+    font-size: 20px;
+}
+#imagem{
+    display:flex;
+    border: solid;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border:none;
+}
+#imagem img{
+    display:flex;
+    width: 100%;
+    height: 90%;
 }
